@@ -1,63 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta Tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Your Vogue-Inspired Website</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Vogue-Inspired Fashion Magazine</title>
+
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Header Section -->
   <header>
-    <div class="logo">
-      <h1>Vogue-Inspired</h1>
+    <div class="container">
+      <div class="logo">
+        <h1>Fashionista</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Fashion</a></li>
+          <li><a href="#">Beauty</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Runway</a></li>
+          <li><a href="#">Videos</a></li>
+          <li><a href="#">Shop</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav>
-      <ul>
-        <li><a href="#">Fashion</a></li>
-        <li><a href="#">Beauty</a></li>
-        <li><a href="#">Culture</a></li>
-        <li><a href="#">Runway</a></li>
-        <li><a href="#">Videos</a></li>
-      </ul>
-    </nav>
   </header>
 
-  <!-- Main Banner Section -->
+  <!-- Hero Section -->
   <section class="hero">
+    <div class="overlay"></div>
     <div class="hero-text">
-      <h2>FASHION WEEK</h2>
-      <p>Discover the latest trends from the world's top designers</p>
-      <a href="#" class="btn">Explore</a>
+      <h2>The New Era of Fashion</h2>
+      <p>Explore the latest trends and styles from around the globe.</p>
+      <a href="#" class="btn">Read More</a>
     </div>
   </section>
 
-  <!-- Featured Articles Section -->
-  <section class="featured">
+  <!-- Latest Articles Section -->
+  <section class="latest-articles">
     <div class="container">
-      <article>
-        <img src="fashion1.jpg" alt="Fashion 1">
-        <h3>Paris Fashion Week</h3>
-        <p>The standout moments from the runway.</p>
-      </article>
-      <article>
-        <img src="fashion2.jpg" alt="Fashion 2">
-        <h3>Beauty Secrets</h3>
-        <p>Top beauty trends this season.</p>
-      </article>
-      <article>
-        <img src="fashion3.jpg" alt="Fashion 3">
-        <h3>Street Style</h3>
-        <p>How to achieve the perfect street look.</p>
-      </article>
+      <h2>Latest Articles</h2>
+      <div class="articles-grid">
+        <!-- Article 1 -->
+        <article>
+          <img src="images/article1.jpg" alt="Article 1">
+          <h3>Autumn/Winter Collection 2024</h3>
+          <p>Discover the must-have pieces for the upcoming season.</p>
+          <a href="#">Read More</a>
+        </article>
+        <!-- Article 2 -->
+        <article>
+          <img src="images/article2.jpg" alt="Article 2">
+          <h3>Beauty Secrets from Top Models</h3>
+          <p>Unveiling skincare routines and makeup tips.</p>
+          <a href="#">Read More</a>
+        </article>
+        <!-- Article 3 -->
+        <article>
+          <img src="images/article3.jpg" alt="Article 3">
+          <h3>Street Style Highlights</h3>
+          <p>The best looks captured from fashion capitals.</p>
+          <a href="#">Read More</a>
+        </article>
+        <!-- Article 4 -->
+        <article>
+          <img src="images/article4.jpg" alt="Article 4">
+          <h3>Exclusive Interview with Designer XYZ</h3>
+          <p>An in-depth conversation about the future of fashion.</p>
+          <a href="#">Read More</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trending Section -->
+  <section class="trending">
+    <div class="container">
+      <h2>Trending Now</h2>
+      <ul>
+        <li><a href="#">Sustainable Fashion Brands to Watch</a></li>
+        <li><a href="#">Top 10 Must-Have Accessories</a></li>
+        <li><a href="#">The Revival of Vintage Styles</a></li>
+        <li><a href="#">How to Style Bold Patterns</a></li>
+        <li><a href="#">Celebrity Fashion: Hits and Misses</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Newsletter Signup Section -->
+  <section class="newsletter">
+    <div class="container">
+      <h2>Stay Updated</h2>
+      <p>Subscribe to our newsletter to receive the latest fashion news.</p>
+      <form action="#">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
     </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2024 Vogue-Inspired | Designed by You</p>
+    <div class="container">
+      <div class="footer-left">
+        <p>&copy; 2024 Fashionista Magazine</p>
+      </div>
+      <div class="footer-right">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
+
